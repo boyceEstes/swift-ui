@@ -65,7 +65,6 @@ struct MissionView: View {
                 fatalError("Mission \(member)")
             }
         }
-        
         astronauts = matches
     }
 }
