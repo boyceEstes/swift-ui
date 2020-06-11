@@ -11,25 +11,26 @@ import SwiftUI
 struct AddressView: View {
     @ObservedObject var order: Order
     
+    
     var body: some View {
-        NavigationView {
-            Form {
-                Section {
-                    TextField("Name", text: $order.name)
-                    TextField("Street Address", text: $order.streetAddress)
-                    TextField("City", text: $order.city)
-                    TextField("Zip", text: $order.zip)
-                }
-                
-                Section {
-                    NavigationLink(destination: CheckoutView(order: order)) {
-                        Text("Check out")
-                    }
-                }
-                .disabled(order.hasValidAddress == false)
+        // this is already embedded in a navigation controller
+        Form {
+            Section {
+                TextField("Name", text: $order.cakeOrder.name)
+                TextField("Street Address", text: $order.cakeOrder.streetAddress)
+                TextField("City", text: $order.cakeOrder.city)
+                TextField("Zip", text: $order.cakeOrder.zip)
             }
-            .navigationBarTitle("Delivery Details")
+            
+            Section {
+                NavigationLink(destination: CheckoutView(order: order)) {
+                    Text("Check out")
+                }
+            }
+            .disabled(order.hasValidAddress == false)
         }
+        .navigationBarTitle("Delivery Details")
+        
     }
 }
 
