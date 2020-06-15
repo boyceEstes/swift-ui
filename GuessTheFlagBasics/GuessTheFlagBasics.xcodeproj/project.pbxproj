@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3850D132493AE7B00646AAE /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3850D122493AE7B00646AAE /* BindingView.swift */; };
+		B3850D152493B17A00646AAE /* SizeClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3850D142493B17A00646AAE /* SizeClassView.swift */; };
 		B3884E8024780F3C003D8CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3884E7F24780F3C003D8CB5 /* AppDelegate.swift */; };
 		B3884E8224780F3C003D8CB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3884E8124780F3C003D8CB5 /* SceneDelegate.swift */; };
 		B3884E8424780F3C003D8CB5 /* FlagGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3884E8324780F3C003D8CB5 /* FlagGameView.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3850D122493AE7B00646AAE /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		B3850D142493B17A00646AAE /* SizeClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassView.swift; sourceTree = "<group>"; };
 		B3884E7C24780F3C003D8CB5 /* Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3884E7F24780F3C003D8CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3884E8124780F3C003D8CB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				B3884E7F24780F3C003D8CB5 /* AppDelegate.swift */,
 				B3884E8124780F3C003D8CB5 /* SceneDelegate.swift */,
 				B3884E8324780F3C003D8CB5 /* FlagGameView.swift */,
+				B3850D122493AE7B00646AAE /* BindingView.swift */,
+				B3850D142493B17A00646AAE /* SizeClassView.swift */,
 				B3884E8524780F53003D8CB5 /* Assets.xcassets */,
 				B3884E97247C2BE6003D8CB5 /* start.txt */,
 				B3884E8A24780F53003D8CB5 /* LaunchScreen.storyboard */,
@@ -158,9 +164,11 @@
 			files = (
 				B3884E8024780F3C003D8CB5 /* AppDelegate.swift in Sources */,
 				B3884E8224780F3C003D8CB5 /* SceneDelegate.swift in Sources */,
+				B3850D132493AE7B00646AAE /* BindingView.swift in Sources */,
 				B3884E94247B78B3003D8CB5 /* WordScrabbleView.swift in Sources */,
 				B3884E9A247C38F6003D8CB5 /* AnimationView.swift in Sources */,
 				B3884E8424780F3C003D8CB5 /* FlagGameView.swift in Sources */,
+				B3850D152493B17A00646AAE /* SizeClassView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
